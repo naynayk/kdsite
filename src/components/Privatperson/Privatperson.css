@@ -1,0 +1,144 @@
+.privatperson {
+    width: 100%;
+    height: auto;
+    padding: 145px 15% 35px 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.privatpersonDiv {
+    width: 260px;
+    height: 260px;
+    position: relative;
+}
+
+.privatpersonDiv2 {
+    width: 260px;
+    height: 260px;
+    position: relative;
+    margin-left: 270px;
+}
+
+.privatpersonDiv img, .privatpersonDiv2 img {
+    width: 260px;
+    height: 260px;
+    filter: invert(20%);
+}
+
+.privatpersonDiv h1, .privatpersonDiv2 h1 {
+    position: absolute;
+    top: 118.5px;
+    font-size: 23px;
+    color: #ffffffdf;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .privatperson {
+        width: 100%;
+        height: auto;
+        padding: 10% 3% 35px 3%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .privatpersonDiv2 {
+        width: 260px;
+        height: 260px;
+        position: relative;
+        margin-bottom: 15px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .privatperson {
+        width: 100%;
+        height: auto;
+        padding: 18.6% 3% 0 3%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .privatpersonDiv2, .privatpersonDiv {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        margin: 15px 0;
+    }
+
+    .privatpersonDiv img, .privatpersonDiv2 img {
+        width: 220px;
+        height: 220px;
+        filter: invert(20%);
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .privatperson {
+        width: 100%;
+        height: auto;
+        padding: 18.6% 3% 35px 3%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .privatpersonDiv2, .privatpersonDiv {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin: 15px 0;
+    }
+
+    .privatpersonDiv img, .privatpersonDiv2 img {
+        width: 300px;
+        height: 300px;
+        filter: invert(20%);
+    }
+}
+
+/* @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .privatperson {
+        width: 100%;
+        height: auto;
+        padding: 18.6% 3% 35px 3%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .privatpersonDiv2 {
+        width: 260px;
+        height: 260px;
+        position: relative;
+        margin: 15px 0;
+    }
+} */
+
+@media only screen and (min-width: 1201px) {
+    .privatperson {
+        width: 100%;
+        height: auto;
+        padding: 18.6% 3% 35px 3%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .privatpersonDiv2 {
+        width: 260px;
+        height: 260px;
+        position: relative;
+        margin: 0 0 0 270px;
+    }
+
+    .privatpersonDiv {
+        width: 260px;
+        height: 260px;
+        position: relative;
+    }
+}

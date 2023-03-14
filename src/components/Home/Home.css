@@ -1,0 +1,268 @@
+.homeDiv {
+    padding-top: 115px;
+    width: 100%;
+    height: auto;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #33333322;
+}
+
+.clockLine1 {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 98.5px;
+    left: 4%;
+}
+
+.clockLine2 {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    transform: rotateZ(90deg);
+    top: 98.5px;
+    left: 4%;
+}
+
+.line {
+    width: 15px;
+    height: 3px;
+    background-color: black;
+}
+
+.state1 {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 47%;
+    top: 25%;
+    transform: rotateZ(-50deg);
+}
+
+.state2 {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 52%;
+    top: 38%;
+    transform: rotateZ(-30deg);
+}
+
+.state3 {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 54%;
+    top: 41%;
+    transform: rotateZ(-10deg);
+}
+
+.state4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 39%;
+    top: 68%;
+    transform: rotateZ(75deg);
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand,
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 0%;
+}
+
+.hour-hand {
+    width: 1px;
+    height: 60px;
+    background-color: #333;
+    margin-left: -0.5px;
+}
+
+.minute-hand {
+    width: .8px;
+    height: 80px;
+    background-color: #333;
+    margin-left: -0.4px;
+}
+
+.second-hand {
+    width: 0.5px;
+    height: 100px;
+    background-color: red;
+    margin-left: -0.25px;
+}
+
+.center {
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-left: -6px;
+    margin-top: -6px;
+}
+
+.homeDiv2 {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeDiv3 {
+    width: 890px;
+    height: 130px;
+    margin: 30px auto;
+}
+
+.homeDiv3 h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.homeDiv3 h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: lighter;
+    width: 450px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.homeDiv {
+        width: 100%;
+    }
+
+    .homeDiv3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 140px;
+    }
+
+    .homeDiv3 h2 {
+        width: 100%;
+    }
+
+    .homeDiv2 {
+        width: 100%;
+        height: 970px;
+        margin: 40px auto;
+        display: flex;
+        margin-top: -20px;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.homeDiv {
+        width: 100%;
+    }
+
+    .homeDiv3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .homeDiv3 h2 {
+        width: 100%;
+    }
+
+    .homeDiv2 {
+        width: 100%;
+        height: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.homeDiv {
+        width: 100%;
+    }
+
+    .homeDiv3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .homeDiv3 h2 {
+        width: 100%;
+    }
+
+    .homeDiv2 {
+        width: 100%;
+        height: 210px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2%;
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+	.homeDiv {
+        width: 100%;
+    }
+
+    .homeDiv3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .homeDiv3 h2 {
+        width: 100%;
+    }
+
+    .homeDiv2 {
+        width: 100%;
+        height: 220px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+	.homeDiv {
+        width: 100%;
+    }
+
+    .homeDiv2 {
+        width: 100%;
+        margin-top: -50px;
+        height: 320px;
+    }
+
+    .homeDiv3 {
+        width: 890px;
+        padding: 0 300px 0 0;
+    }
+
+    .homeDiv3 h2 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .homeDiv2 {
+        width: 100%;
+        height: 210px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+

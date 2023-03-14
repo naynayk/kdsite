@@ -1,0 +1,154 @@
+.footer {
+    width: 100%;
+    height: 187px;
+    padding: 20px 3%;
+}
+
+.border {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.193);
+    margin-bottom: 17px;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerUl {
+    width: 42%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLi {
+    list-style: none;
+    width: fit-content;
+    height: 150px;
+}
+
+.mainLi {
+    color: rgba(0, 0, 0, 0.668);
+    font-weight: bolder;
+}
+
+.footerLi li {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.318);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footerLi a {
+    color: rgba(0, 0, 0, 0.318);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footerLi a:hover {
+    cursor: pointer;
+}
+
+.img2 {
+    width: 55px;
+    height: 55px;
+}
+
+.footerDiv1 {
+    height: 150px;
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerP {
+    font-size: 9px;
+    color: rgba(0, 0, 0, 0.318);
+    width: 50px;
+}
+
+.footerDiv2 {
+    height: 150px;
+    width: 157px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDiv3 {
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img3 {
+    width: 35px;
+    height: 35px;
+}
+
+.footerH3 {
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.318);
+    margin: 20px 0;
+}
+
+.footerH6 {
+    font-size: 8px;
+    color: rgba(0, 0, 0, 0.318);
+}
+
+.footerH6 a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .footerUl {
+        width: 42%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerDiv1 {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .footerUl {
+        width: 42%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerDiv1 {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .footerUl {
+        width: 41%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerDiv1 {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+}

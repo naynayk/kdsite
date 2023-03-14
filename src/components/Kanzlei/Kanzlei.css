@@ -1,0 +1,88 @@
+.kanzlei {
+    width: 100%;
+    height: auto;
+    padding: 145px 255px 35px 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kanzlei1 {
+    width: 350px;
+    height: auto;
+}
+
+.kanzlei1 h1 {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.h31 {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 17px;
+}
+
+.h32 {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 49px;
+}
+
+.kanzlei1 p {
+    font-size: 15.2px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.809);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .kanzlei {
+        width: 100%;
+        height: auto;
+        padding: 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .kanzlei {
+        width: 100%;
+        height: auto;
+        padding: 16% 3% 0 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .kanzlei {
+        width: 100%;
+        height: auto;
+        padding: 13% 3% 0 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .kanzlei1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .kanzlei {
+        width: 100%;
+        height: auto;
+        padding: 10% 3% 0 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .kanzlei1 {
+        width: 100%;
+    }
+}
